@@ -20,7 +20,7 @@ function Home({
   handleChange,
 }) {
   return (
-    <>
+    <div>
       <AppHeader />
       <Main className="container-fluid">
         <div className="row">
@@ -72,7 +72,7 @@ function Home({
         </div>
       </Main>
       <Footer />
-    </>
+    </div>
   );
 }
 
